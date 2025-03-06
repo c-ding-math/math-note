@@ -1,0 +1,1 @@
+zip -r math-note.zip . -x ".*" -x "README.md" -x "composer.*" -x "package.*" -x "node_modules" -x "vendor" -x "zip.*" -x "phpcs.xml.dist"

@@ -1,0 +1,49 @@
+.custom-logo-link, .navbar-toggle {
+	height: 50px;
+	padding: 14px 15px; 
+	font-size: 20px; 
+	line-height: 22px; 
+	margin:0;
+}
+.custom-logo-link {
+	padding: 14px 0;
+	float: left;
+}
+.custom-logo-link img {
+	width:1.25em;
+	height:1.25em;
+}
+
+.content{
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+.content a {
+	text-decoration:underline;
+}
+.content a:hover {
+	text-decoration:none;
+}
+.footer{
+	padding-top:1em;
+	padding-bottom:1em;
+	background-color:unset;
+}
+.footer .navbar-left{
+	margin-left:-15px;
+}
+.content article, .comments-area{
+	margin-top:6em;
+	margin-bottom:6em;
+}
+.comment-content{
+	padding-top:1em;
+	padding-bottom:0.5em;
+}
+.post-navigation{
+	display:none;
+}
+.widget{
+    margin:4em 0 4em;
+}
