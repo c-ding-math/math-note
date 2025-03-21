@@ -1,9 +1,10 @@
 /*!
 Theme Name: Math Note
+Theme URI: https://github.com/c-ding-math/math-note
 Author: Functor Network
 Author URI: https://functor.network
-Description: A wordpress theme designed for math notes. It features a minimalist look and comes with built-in MathJax support by default. With this theme, text enclosed in $…$ will render as inline math, while text enclosed in $$…$$ will rendered as display math.
-Version: 1.0.1
+Description: A WordPress theme designed for math notes. It has a minimalist look, ensuring your content takes center stage and remains the focal point. The theme comes with built-in MathJax support by default, rendering text enclosed in $...$ as inline math and $$...$$ as display math.
+Version: 1.0.2
 Tested up to: 6.7
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
@@ -537,10 +538,6 @@ a {
 	color: #4169e1;
 }
 
-a:visited {
-	color: #800080;
-}
-
 a:hover,
 a:focus,
 a:active {
@@ -563,12 +560,12 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
-	background: #e6e6e6;
-	color: rgba(0, 0, 0, 0.8);
 	line-height: 1;
 	padding: 0.6em 1em 0.4em;
+	color: #fff;
+    background-color: #222;
+    border-color: #161616;
 }
 
 button:hover,

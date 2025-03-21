@@ -16,9 +16,9 @@
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php
-			math_note_posted_by();
-			echo ' ';
-			math_note_posted_in();
+				math_note_posted_on();
+				echo '<span class="separator"></span>';
+				math_note_tagged_as();
 			?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>

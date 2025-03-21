@@ -12,7 +12,7 @@ License URI: LICENSE
 
 == Description ==
 
-A wordpress theme designed for math notes. It features a minimalist look and comes with built-in MathJax support by default. With this theme, text enclosed in $…$ will render as inline math, while text enclosed in $$…$$ will rendered as display math.
+A WordPress theme designed for math notes. It has a minimalist look, ensuring your content takes center stage and remains the focal point. The theme comes with built-in MathJax support by default, rendering text enclosed in $...$ as inline math and $$...$$ as display math.
 
 == Installation ==
 

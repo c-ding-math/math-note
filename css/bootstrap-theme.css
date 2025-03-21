@@ -33,6 +33,9 @@
 .footer .navbar-left{
 	margin-left:-15px;
 }
+.navbar-nav .children{
+	display:none;
+}
 .content article, .comments-area{
 	margin-top:6em;
 	margin-bottom:6em;
@@ -47,3 +50,8 @@
 .widget{
     margin:4em 0 4em;
 }
+.separator{
+	margin-left:1em;
+	margin-right:1em;
+}
+

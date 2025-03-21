@@ -24,10 +24,12 @@
 				<?php
 				if ( is_singular() ) :
 					math_note_posted_by();
-					echo ' ';
+					echo '<span class="separator"></span>';
 					math_note_posted_in();
 				else :
 					math_note_posted_on();
+					echo '<span class="separator"></span>';
+					math_note_tagged_as();
 				endif;
 				?>
 			</div><!-- .entry-meta -->
