@@ -42,7 +42,7 @@
 			<li>
 				<a href="<?php echo esc_url( __( 'https://functor.network', 'math-note' ) ); ?>">
 					<?php
-					printf( esc_html__( 'Theme designed by %s', 'math-note' ), 'Functor Network' );
+					printf( esc_html__( 'Theme by %s', 'math-note' ), 'Functor Network' );
 					?>
 				</a>
 			</li>
